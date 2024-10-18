@@ -1,0 +1,26 @@
+@media(max-width:768px){
+    #hero_section .main_contant {
+        padding: 0px 0;
+    }
+    
+@media(max-width:576px){
+    #hero_section .main_contant {
+        padding: 44px 0;
+    }
+    section {
+        padding: 33px 0;
+    }
+    .title h3 {
+        font-size: 30px;
+    }
+}
+}
+@media(max-width:351px){
+    #hero_section .main_contant h1 {
+        font-size: 25px;
+        line-height: 0;
+    }
+}
+
+
+/* client Section */

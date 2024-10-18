@@ -1,0 +1,241 @@
+*,::after,::before,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+    font-family: "Urbanist", sans-serif;
+}
+body{
+    background: #E9EAF8;
+}
+.title{
+    margin: 30px 0;
+}
+.title h2{
+    color: #AAB0BC;
+    font-size: 16px;
+    font-weight: 600;
+}
+.title h3{
+    color: #343F52;
+    font-size: 42px;
+    font-weight: 600;
+}
+section{
+    background: #FEFEFE;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 100px 0; 
+}
+/* ---Navbar Section Start */
+.header_section{
+    z-index: 99999;
+}
+.header_section nav .navbar-nav{
+   padding: 8px;
+}
+.header_section nav .navbar-nav .nav-item{
+    margin-left: 15px;
+    color: #343F52;
+    font-size: 17px;
+    font-weight: 600;
+}
+/* ---Hero Section Start */
+.heroSection{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.heroSection .main_contant{
+    padding: 100px 0;
+    z-index: 9000;
+}
+.heroSection .main_contant h1{
+    color: #ffffff;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 62.1px;
+
+}
+.heroSection .main_contant p{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38.4px;
+    
+}
+.heroSection .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    background: linear-gradient(104.94deg, #542461 50%, #332487 100%);
+    height: 100%;
+    width: 100%;
+}
+
+/* ---Service Section Start */
+.services .services_item img{
+    width: 500px;
+}
+.services .services_item .service_content h3{
+   color: #343F52;
+   font-size: 28px;
+   font-weight: 600;
+}
+.services .services_item .service_content p{
+   color: #60697B;
+   font-size: 17px;
+   font-weight: 500;
+}
+.services .services_item .service_content button{
+    font-size: 17px;
+    font-weight: 600;
+    color: #747ED1;
+    border: none;
+    padding: 12px 20px;
+    background:#E9EAF8;
+    border-radius: 30px;
+    margin-top: 8px;
+}
+.services .services_item .service_content .services_icon .icon svg{
+   color: #747ED1;
+   padding: 5px;
+   font-size: 14px;
+   border-radius: 50%;
+   background:#eaeaea;
+}
+/* ---Client Section Start--- */
+#clients_section p{ 
+    color: #AAB0BC;
+    font-size: 16px;
+}
+#clients_section h3{ 
+    color: #343F52;
+    font-size:42px;
+    font-weight: 600;
+}
+#clients_section h5{ 
+    color: #60697B;
+    font-size:22px;
+    font-weight: 500;
+    line-height: 30px;
+}
+/* ---Working process Section Start--- */
+#working_process .working_item{
+    text-align: center;
+}
+#working_process .working_item h3{
+    margin-top: 14px;
+    color: #343F52;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+}
+#working_process .working_item p{
+    color:#60697B;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 28.9px;
+}
+
+/* ---Projects Ideas Section Start--- */
+#Projects_ideas .project_item img{
+    border-radius: 8px;
+}
+#Projects_ideas .project_item h2{
+    font-size: 22px;
+    font-weight: 600;
+    color: #343F52;
+}
+#Projects_ideas .project_item p{
+    font-size: 14px;
+    font-weight: 600;
+    color:#9499A3;
+}
+#Projects_ideas  button{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+    padding: 14px 18px;
+    background:#747ED1;
+    border-radius: 30px;
+}
+
+/* Why Us Section Start */
+#why_us{
+    padding-bottom: 0;
+}
+#why_us .why_us_item img{
+    margin-right: 15px;
+}
+#why_us .counter_part h6{
+    color:#747ED1;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 45px;
+}
+#why_us .counter_part p{
+    color:#60697B;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 28.9px;
+}
+/* Footer Section Start */
+footer{
+    background: #21262C;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 100px 0; 
+}
+#footer_section h4{
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 29px;
+}
+#footer_section p{
+    color:  #CACACA;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 28.9px;
+}
+#footer_section .important_link a{
+    color:  #CACACA;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+}
+#footer_section .footer_logo{
+    margin: 10px 0;
+}
+#footer_section .social_icon a svg{
+    color: #ffffff;
+    font-size: 16px;
+    margin-left: 8px;
+}
+#footer_section .subscirbe input{
+ color: #ffff;
+ padding: 8px 10px;
+ border: 1px solid #FFFFFF1A;
+ outline: none;
+ background:#1E22280A ;
+ border-top-left-radius: 8px;
+ border-bottom-left-radius: 8px;
+}
+#footer_section button{
+ color: #ffffff;
+ border: none;
+ padding: 8px 12px;
+ outline: none;
+ background:#747ED1;
+ border-top-right-radius: 8px;
+ border-bottom-right-radius: 8px; 
+ margin-left: -6px;
+ font-size: 17px;
+}
